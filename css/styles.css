@@ -10,6 +10,7 @@ body {
 /* NTF Card */
 
 .ntf-card {
+  position: relative;
   border-radius: 10px;
   background-color: hsl(216, 50%, 16%);
   margin: 200px auto;
@@ -24,7 +25,7 @@ body {
 .hr {
   width: 90%;
   border: none;
-  color:hsl(215, 51%, 70%);
+  color: hsl(215, 51%, 70%);
 }
 /* Headings & Paragraphs */
 
@@ -44,6 +45,22 @@ p {
   font-weight: normal;
 }
 
+
+.boxshadow {
+  margin-bottom: 65px;
+  display: flex;
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 234px;
+  border-radius: 11px;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(178, 100%, 50%);
+}
+
 .amountdaysleft {
   display: flex;
   justify-content: space-between;
@@ -61,10 +78,10 @@ p {
   justify-content: center;
 }
 
-.clock{
-display: flex;
-align-items: center;
-gap: 5px;
+.clock {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .threedaysleft {
@@ -90,6 +107,7 @@ gap: 5px;
 }
 
 .equilibrium {
+  position: relative;
   box-shadow: inset hsl(178, 100%, 50%);
   cursor: pointer;
   border-radius: 10px;
@@ -98,12 +116,10 @@ gap: 5px;
 
 .equilibrium:hover {
   opacity: 0.5;
-  background-color: hsl(178, 100%, 50%);
-  
 }
 .avatar {
   border-radius: 50%;
-  border:hsl(0, 0%, 100%) solid 1px;
+  border: hsl(0, 0%, 100%) solid 1px;
   margin-top: 10px;
   width: 10%;
   float: left;
