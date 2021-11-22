@@ -30,6 +30,7 @@ body {
 /* Headings & Paragraphs */
 
 h1 {
+  font-size: 25px;
   cursor: pointer;
   color: hsl(0, 0%, 100%);
   font-weight: 600;
@@ -47,7 +48,7 @@ p {
 
 
 .boxshadow {
-  margin-bottom: 65px;
+  margin-bottom: 48px;
   display: flex;
   height: 300px;
   width: 300px;
