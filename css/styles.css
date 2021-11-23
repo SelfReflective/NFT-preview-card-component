@@ -22,10 +22,12 @@ body {
   text-align: left;
 }
 
-.hr {
-  width: 90%;
+hr {
+  width: 95%;
+  height: 1px;
   border: none;
-  color: hsl(215, 51%, 70%);
+  background-color: hsl(215, 51%, 70%);
+  opacity: 20%;
 }
 /* Headings & Paragraphs */
 
@@ -48,7 +50,7 @@ p {
 
 
 .boxshadow {
-  margin-bottom: 48px;
+  margin-bottom: 47px;
   display: flex;
   height: 300px;
   width: 300px;
